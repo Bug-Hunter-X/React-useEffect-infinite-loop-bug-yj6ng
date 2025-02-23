@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug involving the `useEffect` hook.  The initial code creates an infinite render loop because `count` is not included in the dependency array.  The solution shows how to correctly specify the dependency array to resolve this.
